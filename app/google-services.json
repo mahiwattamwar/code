@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "762246730560",
+    "project_id": "crop-diease",
+    "storage_bucket": "crop-diease.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:762246730560:android:aef380b72cf871153a20a5",
+        "android_client_info": {
+          "package_name": "com.example.crop_diease"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "762246730560-a30vb7nso39ekjae5r2fg5e1lb08gitm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCj1PyRIvLXJD8vS_M2ndqfl2fh6dZIjHk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "762246730560-a30vb7nso39ekjae5r2fg5e1lb08gitm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

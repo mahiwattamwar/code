@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/cro"
+
+    android:orientation="vertical"
+    tools:context=".Register">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="80dp"
+        android:gravity="center_vertical"
+        android:text="Register"
+        android:textColor="@color/colorprimay"
+        android:textSize="35dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/student_name"
+        android:layout_width="300dp"
+        android:layout_height="55dp"
+        android:layout_gravity="center"
+        android:layout_margin="16dp"
+        android:hint=" Name"
+        />
+
+
+    <EditText
+        android:id="@+id/student_monumber"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_margin="16dp"
+        android:inputType="number"
+        android:hint="Mobile Number"
+        />
+
+    <EditText
+        android:id="@+id/student_address"
+        android:layout_width="300dp"
+        android:layout_height="46dp"
+        android:layout_gravity="center"
+        android:layout_margin="16dp"
+        android:hint="Address"
+        android:inputType="text"
+        />
+
+    <EditText
+        android:id="@+id/student_email"
+        android:layout_width="300dp"
+        android:layout_height="48dp"
+        android:layout_gravity="center"
+        android:layout_margin="16dp"
+        android:hint="Email id"
+        />
+
+    <EditText
+        android:id="@+id/student_password"
+        android:layout_width="300dp"
+        android:layout_height="44dp"
+        android:layout_gravity="center"
+        android:layout_margin="16dp"
+        android:hint="Password"
+        android:inputType="textPassword" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnregister"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/btn_bg"
+        android:layout_marginTop="20dp"
+        android:text="Register" />
+
+
+</LinearLayout>
